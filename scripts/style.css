@@ -1,0 +1,55 @@
+@import url("fonts.css");
+
+body {
+    font-family: "Fira";
+}
+
+a {
+    position: fixed;
+}
+
+img[src="images/icon.png"] {
+    width: 64px;
+    height: 64px;
+}
+
+#label {
+    position: fixed;
+    top: 2.7%;
+    left: -25%;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    transition: left 1s ease;
+}
+
+#date {
+    font-size: 32px;
+    text-align: center;
+    display: block;
+}
+
+#app {
+    border-radius: 16px;
+    width: 50%;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    left: 25%;
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+
+#temp {
+    text-align: center;
+    display: block;
+    font-size: 96px;
+    font-weight: 500;
+}
+
+#city {
+    text-align: center;
+    font-size: 128px;
+    display: block;
+    font-weight: 500;
+}
